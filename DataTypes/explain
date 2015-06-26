@@ -1,0 +1,160 @@
+Raghav Bhatnagar IMT2014042 raghav.bhatnagar@iiitb.org
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q1. Signed char minimum value : -128
+
+Explaination : The signed char occupies only one byte but can take both positive and negative values thus its range is -128 to 127. 
+1 byte = 8 bits = 2^8 characters.
+Thus half of these are positive while the rest are negative. Hence the negative characters are (2^8)/2 = 128, thereby making the minimum equal to -128.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q2. Signed char maximum value : 127
+
+Explaination :  The signed char occupies only one byte but can take both positive and negative values thus its range is -128 to 127. 
+1 byte = 8 bits = 2^8 characters.
+Thus half of these are positive while the rest are negative. Hence the positive characters are (2^8)/2 - 1 = 127, thereby making the maximum equal to 127. Zero is also a part of the positive characters as, thus the maximum is 127 and not 128.
+    
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3. Unsigned char minimum : 0
+
+Explaination: The unsigned char occupies only one byte but can take only positive values. Thus its range is from 0 to 255.
+1 byte = 8 bits = 2^8 characters.
+As the unsigned char takes only positive values the minimum automatically become 0.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4. Signed char maximum : 255
+
+Explaination: The unsigned char occupies only one byte but can take only positive values. Thus its range is from 0 to 255.
+1 byte = 8 bits = 2^8 characters.
+As the unsigned char takes only positive values, the maximum value that it can take is (2^8) - 1 = 255 as zero is also included in those 256 values.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Q5.Char minimum value : -128
+
+Explaination :Char occupies only one byte but can take both positive and negative values thus its range is -128 to 127. 
+1 byte = 8 bits = 2^8 characters.
+Thus half of these are positive while the rest are negative. Hence the negative characters are (2^8)/2 = 128, thereby making the minimum equal to -128.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Q6.Char maximum value : 127
+
+Explaination :Char occupies only one byte but can take both positive and negative values thus its range is -128 to 127. 
+1 byte = 8 bits = 2^8 characters.
+Thus half of these are positive while the rest are negative. Hence the positive characters are (2^8)/2 - 1 = 127, thereby making the maximum equal to 127. Zero is also a part of the positive characters , thus the maximum is 127 and not 128.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q7.Signed short minimum value : -32768
+
+Explaination: Signed short occupies 2 bytes and can take both positive and negative values, thus its range is -32768 to 32767
+2 bytes = 16 bits = (2^16) characters
+Thus half of these are positive while the rest are negative. Hence the negative  characters are (2^16)/2 = 32768, thereby making the minimum equal to -32768.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Q8.Signed short maximum value : 32767
+
+Explaination: Signed short occupies 2 bytes and can take both positive and negative values, thus its range is -32768 to 32767
+2 bytes = 16 bits = (2^16) characters
+Thus half of these are positive while the rest are negative. Hence the positive characters are (2^16)/2 = 32768, thereby making the maximum  equal to 32767 after including zero.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q9. Unsigned short minimum value : 0
+
+Explaination: The unsigned short occupies two bytes but can take only positive values. Thus its range is from 0 to 65535.
+2 byte = 16 bits = 2^16 characters.
+As the unsigned short takes only positive values the minimum automatically become 0.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q10.Unsigned short maximum value : 65535
+
+Explaination: Unsigned short occupies 2 bytes and can take only positive values, thus its range is 0 to 65535
+2 bytes = 16 bits = (2^16) characters
+As all of these are positive,  Hence the positive characters are (2^16) =65536 , thereby making the maximum  equal to 65535 after including zero.
+
+------------------------------------------------------------------------------------------------------------------------------------------------Q11.Signed int minimum value: -2147483648
+
+Explaination: Signed int occupies 4 bytes and can take both positive and negative values, thus its range is -2147483648 to 2147483647
+4 bytes = 32 bits = (2^32) characters
+Thus half of these are positive while the rest are negative. Hence the negative  characters are (2^32)/2 = 2147483648, thereby making the minimum equal to -2147483648.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q12.Signed int maximum value: 2147483647
+
+Explaination: Signed int occupies 4 bytes and can take both positive and negative values, thus its range is -2147483648 to 2147483647
+4 bytes = 32 bits = (2^32) characters
+Thus half of these are positive while the rest are negative. Hence the positive  characters are (2^32)/2 = 2147483648, thereby making the maximum equal to 2147483647 after incluting zero.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q13. Unsigned int minimum value: 0
+
+Explaination: Unsigned int occupies 4 bytes and can take only positive values, thus its range is 0 to 4294967295.
+4 bytes = 32 bits = (2^32) characters
+As all of these are positive,  Hence the positive characters are (2^32) =4294967296 , thereby making the minimum 0 automatically.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Q14. Unsigned int maximum value: 4294967295
+
+Explaination: Unigned int occupies 4 bytes and can only take  positive values, thus its range is 0 to 4294967295.
+4 bytes = 32 bits = (2^32) characters
+As all of these are positive,  the positive characters are (2^32) =4294967296 , thereby making the maximum 4294967295 after including zero.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q15. Signed long minimum value: -9223372036854775808
+
+Explaination: Signed long occupies 8 bytes and can take both positive and negative values, thus its range is -9223372036854775808 to 9223372036854775807
+8 bytes = 64 bits = (2^64) characters
+Thus half of these are positive while the rest are negative. Hence the negative  characters are (2^64)/2 = 9223372036854775808, thereby making the minimum equal to -9223372036854775808.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q16. Signed long maximum value: 9223372036854775807
+
+Explaination: Signed long occupies 8 bytes and can take both positive and negative values, thus its range is -9223372036854775808 to 9223372036854775807
+8 bytes = 64 bits = (2^64) characters
+Thus half of these are positive while the rest are negative. Hence the positive  characters are (2^64)/2 = 9223372036854775808, thereby making the maximum equal to 9223372036854775807 after including 0.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q17.Unsigned long minimum value: 0
+
+Explaination: Unsigned long occupies 8 bytes and can take only positive values, thus its range is 0 to 18446744073709551615
+8 bytes = 64 bits = (2^64) characters
+Hence the positive  characters are (2^64) = 18446744073709551616, thereby making the minimum equal to 0 automatically.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q18. Unsigned long maximum: 18446744073709551615
+
+Explaination: Unsigned long occupies 8 bytes and can take only positive values, thus its range is 0 to 18446744073709551615
+8 bytes = 64 bits = (2^64) characters
+Hence the positive  characters are (2^64) = 18446744073709551616, thereby making the maximum equal to 18446744073709551615 after including zero.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q19. Signed long long minimum value: -9223372036854775808
+Signed long long minimum value: -9223372036854775808
+
+Explaination: Signed long long occupies 8 bytes and can take both positive and negative values, thus its range is -9223372036854775808 to 9223372036854775807
+8 bytes = 64 bits = (2^64) characters
+Thus half of these are positive while the rest are negative. Hence the negative  characters are (2^64)/2 = 9223372036854775808, thereby making the minimum equal to -9223372036854775808.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Q20. Signed long long maximum value: 9223372036854775807
+
+Explaination: Signed long long occupies 8 bytes and can take both positive and negative values, thus its range is -9223372036854775808 to 9223372036854775807
+8 bytes = 64 bits = (2^64) characters
+Thus half of these are positive while the rest are negative. Hence the positive  characters are (2^64)/2 = 9223372036854775808, thereby making the maximum equal to 9223372036854775807 after including 0.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q21. Unsigned long long minimum value: 0
+
+Explaination: Unsigned long long occupies 8 bytes and can take only positive values, thus its range is 0 to 18446744073709551615
+8 bytes = 64 bits = (2^64) characters
+Hence the positive  characters are (2^64) = 18446744073709551616, thereby making the minimum equal to 0 automatically.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q22.Unsigned long maximum: 18446744073709551615
+
+Explaination: Unsigned long occupies 8 bytes and can take only positive values, thus its range is 0 to 18446744073709551615
+8 bytes = 64 bits = (2^64) characters
+Hence the positive  characters are (2^64) = 18446744073709551616, thereby making the maximum equal to 18446744073709551615 after including zero.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
