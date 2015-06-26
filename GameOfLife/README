@@ -1,0 +1,16 @@
+Game of life
+This Game of Life module works on the following set of rules:
+	1.Any live cell with less than two live neighbours dies, as if caused by under-population.
+	2.Any live cell with two or three live neighbours lives on to the next generation.
+	3.Any live cell with more than three live neighbours dies, as if by overcrowding.
+	4.Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+Compile the Game of Life module:
+	1.Navigate to the life directory.
+	2.Type the following command in the command prompt.
+		$ make all
+Using Game of Life module:
+	1.Use the following command:
+		$ ./life <xxxx> <yyyy>
+	2.Here "xxxx" is the initial file name and "yyyy" is the number of generations.
+	
+	
